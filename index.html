@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Responsive Navbar -->
+<nav class="navbar">
+  <div class="nav-logo"></div>
+  <input type="checkbox" id="nav-toggle" class="nav-toggle">
+  <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+
+<!-- Home Section -->
+<section class="home" id="home">
+    <h1>HELLO, I'M KYO</h1>
+    <img src="boss1.jpg" alt="Profile Picture" class="avatar" />
+    <p class="subtitle">
+      <span class="typing-text">ASPIRING TO DO NOTHING IN LIFE :)</span>
+    </p>    
+    <a href="#about" class="btn">LEARN MORE</a>
+  </section>
+<!-- About Me Section -->
+<section class="about" id="about">
+  <div class="about-photo-container">
+    <img src="Capture.JPG" alt="About Photo" class="about-photo" />
+  </div>
+  <h2>About Me</h2>
+  <p class="about-text">
+    Hello! I'm Kyo Pahimutang, a dedicated and detail-oriented web developer with a passion for creating clean, responsive, and user-friendly websites. I enjoy solving technical challenges and constantly improving my skills in front-end and back-end technologies.
+    <br><br>
+    My journey in tech started with curiosity and has grown into a strong drive to build meaningful digital experiences. I'm currently focused on improving my knowledge in HTML, CSS, JavaScript, and PHP.
+  </p>
+</section>
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="vote.JPG" alt="Project 1" />
+        <h3>Accessible Voting System</h3>
+        <p>A secure and user-friendly online voting platform designed for Persons with Disabilities (PWD), featuring account validation, vote submission, and an admin dashboard.</p>
+      </div>
+      <div class="project-card">
+        <img src="tea.JPG" alt="Project 2" />
+        <h3>TeaCloud.com</h3>
+        <p>An e-commerce website concept for selling premium teas online with an elegant UI, shopping cart features, and responsive design for mobile and desktop devices.</p>
+      </div>
+      <div class="project-card">
+        <img src="student1.jpg" alt="Project 3" />
+        <h3>Student Management System</h3>
+        <p>A simple yet effective desktop-based system to track, search, and manage student information using Java with a binary search implementation.</p>
+      </div>
+    </div>
+  </section> 
+<!-- Skills Section -->
+<section class="skills" id="skills">
+  <h2>My Skills</h2>
+  <div class="skills-grid">
+    <div class="skill">
+      <div class="skill-header">
+        <p>HTML</p>
+        <span>85%</span>
+      </div>
+      <div class="skill-bar"><div class="skill-level" style="width: 90%;"></div></div>
+    </div>
+    <div class="skill">
+      <div class="skill-header">
+        <p>CSS</p>
+        <span>75%</span>
+      </div>
+      <div class="skill-bar"><div class="skill-level" style="width: 85%;"></div></div>
+    </div>
+    <div class="skill">
+      <div class="skill-header">
+        <p>JavaScript</p>
+        <span>50%</span>
+      </div>
+      <div class="skill-bar"><div class="skill-level" style="width: 70%;"></div></div>
+    </div>
+    <div class="skill">
+      <div class="skill-header">
+        <p>PHP</p>
+        <span>45%</span>
+      </div>
+      <div class="skill-bar"><div class="skill-level" style="width: 60%;"></div></div>
+    </div>
+  </div>
+</section>
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <p>You can reach me through the form below:</p>
+
+  <form class="contact-form" action="mailto:your-email@example.com" method="post" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="contact-info">
+    <p><strong>Phone:</strong> 0932-168-6656</p>
+    <p><strong>Email:</strong> kyokstogo@gmail.com</p>
+    <p><strong>Address:</strong> Osmeña St. Gun-ob Lapu-lapu City</p>
+    <div class="social-links">
+      <a href="https://facebook.com/yourprofile" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com/yourprofile" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/yourprofile" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+  <p>&copy; 2025 Kyo Pahimutang. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
